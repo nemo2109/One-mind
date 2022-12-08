@@ -1,0 +1,38 @@
+.principal,
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*
+colores de fondo del body
+*/
+.enojado{
+  background-color: red;
+}
+
+.feliz{
+  background-color: yellow;
+}
+
+.triste{
+  background-color: blue;
+}
+
+.tranquilo{
+  background-color: chocolate;
+}
+
+/*
+Colores de fondo de la seccion
+*/
+.enojado-s{
+  background-color: rgb(232, 78, 78);
+}
+
+.feliz-s{
+  background-color: rgb(208, 208, 73);
+}
+

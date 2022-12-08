@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./Assets/css/style.css" />
   </head>
   <body>
-    <header>
+    <header id="header">
       <h1>¿Como te sentis hoy?</h1>
     </header>
 
     <main id="main">
-      <section id="contenido-1">
+      <section id="contenido-1" class="principal">
         <img src="" alt="Imagen de comillas" id="img-1" />
 
-        <form>
+        <form id="form" class="form">
           <input
             id="emociones"
             type="text"
@@ -25,19 +25,22 @@
             name="emociones"
             required
           >
-
-          <label for="emoji">
-            Me siento...
-          </label>
-          <button type="submit" id="feliz"></button>
-          <button type="submit" id="triste"></button>
-          <button type="submit" id="tranquilo"></button>
-          <button type="submit" id="enojado"></button>
+          
+          <div>
+            <label for="emoji">
+              Me siento...
+            </label>
+            <button type="submit" id="feliz"><img src=""></button>
+            <button type="submit" id="triste"></button>
+            <button type="submit" id="tranquilo"></button>
+            <button type="submit" id="enojado"></button>
+          </div>
         </form>
+
       </section>
     </main>
 
     <!--Mi hoja de JS-->
-    <script src="./JS/main.js"></script>
+    <script src="./JS/main.js" type="text/javascript"></script>
   </body>
 </html>
