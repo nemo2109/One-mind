@@ -36,3 +36,14 @@ Colores de fondo de la seccion
   background-color: rgb(208, 208, 73);
 }
 
+/*
+Modificacion de tamaños imagenes
+*/
+
+.emoji{
+  width: 10%;
+}
+
+.comillas{
+  width: 5%;
+}
