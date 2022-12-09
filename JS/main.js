@@ -18,7 +18,7 @@ form.addEventListener('submit', (e) => {
 
 // Crear un evento global 
 main.addEventListener('click', (e) => {
-  if(e.target.id === 'feliz') {
+  if(e.target.classList.contains('feliz')) {
     // Agregar clases a body
     body.removeAttribute('class');
     body.classList.add('feliz');
@@ -26,17 +26,23 @@ main.addEventListener('click', (e) => {
     // Agregar la clase a la seccion
     seccionPrincipal.classList.add('feliz-s');
   }
-  if(e.target.id === 'triste') {
+  if(e.target.classList.contains('triste')) {
     body.removeAttribute('class');
     body.classList.add('triste');
+
+    // Agregar la clase a la seccion
+    seccionPrincipal.classList.add('triste-s')
   }
 
-  if(e.target.id === 'tranquilo') {
+  if(e.target.classList.contains ('tranquilo')) {
     body.removeAttribute('class');
     body.classList.add('tranquilo');
+
+    // Agregar la clase a la seccion
+    seccionPrincipal.classList.add('tranquilo-s')
   }
 
-  if(e.target.id === 'enojado') {
+  if(e.target.classList.contains ('enojado')) {
     body.removeAttribute('class');
     body.classList.add('enojado');
 

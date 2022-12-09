@@ -6,6 +6,11 @@
   flex-direction: column;
 }
 
+#titulo{
+  text-align: center;
+  margin: 0%;
+}
+
 /*
 colores de fondo del body
 */
@@ -14,7 +19,9 @@ colores de fondo del body
 }
 
 .feliz{
-  background-color: yellow;
+  background: rgb(249,153,78);
+  background: linear-gradient(0deg, rgba(249,153,78,1) 0%, rgba(251,214,181,1) 100%);
+  background-repeat: no-repeat;
 }
 
 .triste{
@@ -22,7 +29,9 @@ colores de fondo del body
 }
 
 .tranquilo{
-  background-color: chocolate;
+  background: rgb(138,244,244);
+  background: linear-gradient(0deg, rgba(138,244,244,1) 0%, rgba(139,237,237,1) 49%, rgba(200,250,249,1) 81%);
+  background-repeat: no-repeat;
 }
 
 /*
@@ -33,7 +42,13 @@ Colores de fondo de la seccion
 }
 
 .feliz-s{
-  background-color: rgb(208, 208, 73);
+  background: rgb(249,153,78);
+  background: linear-gradient(0deg, rgba(249,153,78,1) 0%, rgba(251,214,181,1) 100%);
+  background-repeat: no-repeat;
+}
+
+.tranquilo-s{
+  background-color:#59b7b6 ;
 }
 
 /*
@@ -41,9 +56,28 @@ Modificacion de tamaños imagenes
 */
 
 .emoji{
-  width: 10%;
+  width: 1rem;
 }
 
-.comillas{
-  width: 5%;
+#img-1{
+  width: 2%;
+  position: relative;
+  right: 11%;
+  bottom: 10%;
+}
+
+/*
+Tamaño de botones
+*/
+
+#feliz,
+#triste,
+#tranquilo,
+#enojado{
+  width: 2.9rem;
+  border-style: none;
+}
+
+#emociones{
+  margin-bottom: 3%;
 }
