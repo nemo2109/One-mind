@@ -15,40 +15,74 @@
 colores de fondo del body
 */
 .enojado{
-  background-color: red;
+  background:
+      linear-gradient(
+        to top,
+        #cb211f 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
+        #e48280 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
+        #f8d9d7 100%      /* Color 100% rojo en el punto 100% */
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
+  
 }
 
 .feliz{
-  background: rgb(249,153,78);
-  background: linear-gradient(0deg, rgba(249,153,78,1) 0%, rgba(251,214,181,1) 100%);
-  background-repeat: no-repeat;
-}
+    background:
+      linear-gradient(
+        to top,
+        #f99342 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
+        #fcc59c 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
+        #feebdd 100%      /* Color 100% rojo en el punto 100% */
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
+
+  }
+
 
 .triste{
-  background-color: rgb(28, 28, 209);
+  background:
+      linear-gradient(
+        to top,
+        #24223a 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
+        #7c7b89 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
+        #d3d2d7 100%      /* Color 100% rojo en el punto 100% */
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
 }
 
 .tranquilo{
-  background: rgb(138,244,244);
-  background: linear-gradient(0deg, rgba(138,244,244,1) 0%, rgba(139,237,237,1) 49%, rgba(200,250,249,1) 81%);
-  background-repeat: no-repeat;
+  background:
+      linear-gradient(
+        to top,
+        #88f4f4 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
+        #c1f9fa 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
+        #eefbfd 100%      /* Color 100% rojo en el punto 100% */
+      );
+      background-repeat: no-repeat;
+      height: 58.2rem;
+
 }
 
 /*
 Colores de fondo de la seccion
 */
 .enojado-s{
-  background-color: rgb(232, 78, 78);
+  background-color: #fe7678;
 }
 
 .feliz-s{
-  background: rgb(249,153,78);
-  background: linear-gradient(0deg, rgba(249,153,78,1) 0%, rgba(251,214,181,1) 100%);
-  background-repeat: no-repeat;
+ background-color: #ffff01;
 }
 
 .tranquilo-s{
   background-color:#59b7b6 ;
+}
+
+.triste-s{
+  background-color: #141265;
 }
 
 /*
