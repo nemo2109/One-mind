@@ -18,9 +18,9 @@ colores de fondo del body
   background:
       linear-gradient(
         to top,
-        #cb211f 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
-        #e48280 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
-        #f8d9d7 100%      /* Color 100% rojo en el punto 100% */
+        #cb211f 0%,     
+        #e48280 50%,     
+        #f8d9d7 100%
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -31,9 +31,9 @@ colores de fondo del body
     background:
       linear-gradient(
         to top,
-        #f99342 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
-        #fcc59c 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
-        #feebdd 100%      /* Color 100% rojo en el punto 100% */
+        #f99342 0%,     
+        #fcc59c 50%,     
+        #feebdd 100%      
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -45,9 +45,9 @@ colores de fondo del body
   background:
       linear-gradient(
         to top,
-        #24223a 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
-        #7c7b89 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
-        #d3d2d7 100%      /* Color 100% rojo en el punto 100% */
+        #24223a 0%,     
+        #7c7b89 50%,     
+        #d3d2d7 100%     
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -57,9 +57,9 @@ colores de fondo del body
   background:
       linear-gradient(
         to top,
-        #88f4f4 0%,     /* Color 100% negro en el punto 0% y comienza a cambiar */
-        #c1f9fa 50%,     /* Color 100% dorado en el punto 50% y comienza a cambiar */
-        #eefbfd 100%      /* Color 100% rojo en el punto 100% */
+        #88f4f4 0%,    
+        #c1f9fa 50%,     
+        #eefbfd 100%     
       );
       background-repeat: no-repeat;
       height: 58.2rem;
