@@ -1,3 +1,23 @@
+body{
+  background:
+  linear-gradient(
+    to top,
+    #88fece 5%,     
+    #a4fed8 45%,     
+    #e0fff0 100%
+  );
+  background-repeat: no-repeat;
+  height: 58.2rem;
+}
+
+#contenido-1{
+  width: 30%;
+  padding: 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83); 
+  box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83);
+}
+
 .principal,
 .form{
   display: flex;
@@ -11,6 +31,13 @@
   margin: 0%;
 }
 
+#main{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10%;
+}
+
 /*
 colores de fondo del body
 */
@@ -18,9 +45,9 @@ colores de fondo del body
   background:
       linear-gradient(
         to top,
-        #cb211f 0%,     
-        #e48280 50%,     
-        #f8d9d7 100%
+        #cb211f 5%,     
+        #e48280 45%,     
+        #f3c7c4 100%
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -31,9 +58,9 @@ colores de fondo del body
     background:
       linear-gradient(
         to top,
-        #f99342 0%,     
-        #fcc59c 50%,     
-        #feebdd 100%      
+        #fa913b 5%,     
+        #fcc59c 45%,     
+        #fedec7 100%      
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -45,9 +72,9 @@ colores de fondo del body
   background:
       linear-gradient(
         to top,
-        #24223a 0%,     
-        #7c7b89 50%,     
-        #d3d2d7 100%     
+        #1e1950 5%,     
+        #7c7b89 45%,     
+        #c6c5cb 100%     
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -57,9 +84,9 @@ colores de fondo del body
   background:
       linear-gradient(
         to top,
-        #88f4f4 0%,    
-        #c1f9fa 50%,     
-        #eefbfd 100%     
+        #57bdbd 5%,    
+        #c1f9fa 45%,     
+        #e3fdfe 100%     
       );
       background-repeat: no-repeat;
       height: 58.2rem;
@@ -71,18 +98,39 @@ Colores de fondo de la seccion
 */
 .enojado-s{
   background-color: #fe7678;
+  width: 30%;
+  padding: 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83); 
+  box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83);
 }
 
 .feliz-s{
  background-color: #ffff01;
+ width: 30%;
+ padding: 50px;
+ border-radius: 15px;
+ -webkit-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83); 
+ box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83);
 }
 
 .tranquilo-s{
   background-color:#59b7b6 ;
+  width: 30%;
+  padding: 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83); 
+  box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83);
 }
 
 .triste-s{
   background-color: #141265;
+  width: 30%;
+  padding: 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83); 
+  box-shadow: 4px 6px 10px 2px rgba(0,0,0,0.83);
+  color: white;
 }
 
 /*
@@ -94,10 +142,11 @@ Modificacion de tamaños imagenes
 }
 
 #img-1{
-  width: 2%;
+  width: 10%;
   position: relative;
-  right: 11%;
-  bottom: 10%;
+  right: 16rem;
+  bottom: 3rem;
+
 }
 
 /*
@@ -108,10 +157,18 @@ Tamaño de botones
 #triste,
 #tranquilo,
 #enojado{
-  width: 2.9rem;
+  width: 2rem;
   border-style: none;
 }
 
-#emociones{
+button {
+  background: transparent;
+  border: none;
+}
+
+#sentimiento{
+  border: none;
   margin-bottom: 3%;
+  margin-right: 10%;
+  
 }
